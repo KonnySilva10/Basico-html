@@ -15,8 +15,25 @@
       <h2>Aviso de privasidad</h2>
       <p>los datos recopilados en este formulario (nombre e informacion de contacto)  seran utilizados unica y exclusivamente para la reparacion y seguimiento de los equipos o mobiliario del ambiente de formacion. no seran compartidos con terceros.</p>
     </selction>
-
     <!-- formulario aqui iniciaremos nuestro formulario en el siguiente paso-->
+     <h2>Detalles del reporte</h2>
+
+     <form action="#" method="POST">
+      <!-- campo de texto basico -->
+       <label for="nombrecompleto">Nombre del aprendiz:</label>
+       <input type="text" id="nombrecompleto" name="nombrecompleto" required>
+       <br><br>
+
+       <!-- lista desplegable (combobox) -->
+        <label for="tiponovedad">Tipo de novedad:</label>
+        <select id="tipoNovedad" name="tiponovedad" required>
+          <option value="">Seleccione una categoria...</option>
+          <option value="hardware">daño e equipo de computo</option>
+          <option value="software">falla de software o red</option>
+          <option value="infraestructura"> daño e mobiliario o electricidad</option>
+        </select>
+        <br><br>
+     
   </main>
 </body>
 </html>
